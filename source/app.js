@@ -146,7 +146,7 @@ function init(){
 						loader.load( 'basic.glb', function ( gltf ) {
 
 							gltf.scene.traverse( function ( child ) {
-              
+               
                 
 								if ( child.isMesh ) {
                   child.material.metalness = 0.1;
